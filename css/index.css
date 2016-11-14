@@ -43,3 +43,43 @@ h1 {
     right: 0%;
     bottom: 0%;
 }
+
+.length1 {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 5%;
+    height: 10%;
+    background: black;
+    position: absolute;
+}
+
+.length2 {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 5%;
+    height: 10%;
+    background: grey;
+    position: absolute;
+}
+
+.length3 {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 5%;
+    height: 10%;
+    background: lightgray;
+    position: absolute;
+}
+
+.length4 {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 5%;
+    height: 10%;
+    background: white;
+    position: absolute;
+}

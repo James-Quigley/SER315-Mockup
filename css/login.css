@@ -1,0 +1,15 @@
+.loginInfo {
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    background: #2196F3;
+    border-radius: 15px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    border: 3px white solid;
+}

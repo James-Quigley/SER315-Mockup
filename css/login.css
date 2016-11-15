@@ -35,11 +35,17 @@ input {
     font-size: 20px;
 }
 
+.inputText {
+	color: white;
+}
 #submit{
     text-align: right;
     color: #4CAF50;
 }
 
+#submitButton {
+	background-color: #4CAF50;
+}
 .input-field label{
     color: #fff;
 }

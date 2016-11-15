@@ -17,6 +17,10 @@
     font-size: 30px;
 }
 
+.brand-logo{
+	margin-left: 1%;
+}
+
 label {
     color: white;
 }

@@ -18,10 +18,10 @@
         <li><a href="#!">Logout</a></li>
     </ul>
     <ul id="dropdown2" class="dropdown-content">
-        <li>Student</li>
+        <li><span class="ddSection">Student</span></li>
         <li><a href="#!">HST 318</a></li>
         <li><a href="#!">SER 321</a></li>
-        <li>Instructor</li>
+        <li><span class="ddSection">Instructor</span></li>
         <li><a href="#!">SER 315</a></li>
     </ul>
     <nav class="blue">
@@ -39,8 +39,8 @@
     </nav>
     <main>
         <div class="typeSelector">
-            <a href="" class="btn-large" id="student">Student</a>
-            <a href="" class="btn-large" id="instructor">Instructor</a>
+            <button class="btn-large" id="student" disabled>Student</button>
+            <button class="btn-large" id="instructor">Instructor</button>
         </div>
         <div class="courses">
             <div class="card blue lighten-1">
@@ -59,5 +59,6 @@
             </div>
         </div>
     </main>
+    <script src="js/home.js"></script>
 </body>
 </html>

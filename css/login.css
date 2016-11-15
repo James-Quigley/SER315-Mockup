@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    src: url('./roboto/Roboto-Regular.tff'); /*URL to font*/
+}
+
 .loginInfo {
     width: 80%;
     margin: 5% auto;
-    padding: 5%;
-    background: #2196F3;
+    padding: 2% 3% 3%;
+    background: #1976D2;
     border-radius: 15px;
+}
+
+#loginTitle{
+    display: block;
+    text-align: center;
+    font-size: 30px;
 }
 
 label {
@@ -12,4 +23,33 @@ label {
 
 input {
     border: 3px white solid;
+}
+
+.navBarDiv {
+    display: inline-block;
+    margin: auto 2% auto;
+	text-align: right;
+}
+
+.navBarItem{
+    font-size: 20px;
+}
+
+#submit{
+    text-align: right;
+    color: #4CAF50;
+}
+
+.input-field label{
+    color: #fff;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #4CAF50;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #4CAF50;
 }

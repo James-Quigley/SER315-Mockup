@@ -1,7 +1,17 @@
 .card {
     width: 20%;
-    margin: 5%;
+    margin: 2%;
+    display: inline-block;
 }
+
+.card-content{
+    color: white;
+}
+
+.card-action{
+    color: white;
+}
+
 
 .typeSelector {
     text-align: center;
@@ -19,9 +29,21 @@
     border: 2px #03A9F4 solid;
 }
 
-.ddSection {
+#labelCoursesDropdownElement {
+	height: 5;
+    padding-top: 20px;
+    margin-left: 5px;
+}
+
+.cardLink a:link{
+    color: aliceblue;
+}
+
+.ddSection{
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     background-color: whitesmoke;
+    text-decoration-color: wheat;
+    background: #BBDEFB;
 }

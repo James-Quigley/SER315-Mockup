@@ -20,14 +20,13 @@
 
 #student, #instructor {
     width: 200px;
-    background: #BDBDBD;
-    border: 2px #03A9F4 solid;
+    background: #BBDEFB;
     color: #212121;
     font-weight: bold;
 }
 
 #student {
-    background: #BBDEFB;
+    border: 2px #03A9F4 solid;
 }
 
 #labelCoursesDropdownElement {
@@ -46,4 +45,5 @@
     text-decoration: underline;
     background-color: whitesmoke;
     text-decoration-color: wheat;
+    background: #BBDEFB;
 }

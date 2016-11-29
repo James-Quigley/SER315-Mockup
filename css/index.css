@@ -108,3 +108,13 @@ h1 {
     margin-right: .5px;
     padding: 0;
 }
+
+.stack div li{
+    height: 10vh;
+    padding: 5%;
+}
+
+
+.stack div p {
+    margin-top: 1vh;
+}

@@ -19,14 +19,33 @@ h1 {
 
 .stack {
     width: 25%;
-    height: 90vh;
+    height: 100%;
     position: absolute;
-    left: 0%;
+    left: 0;
+    margin: 0;
     overflow-y:auto;
 }
 
 .title {
     font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.titleIcon {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.bsDivider {
+    height: 1px;
+	background-color: #BDBDBD;
+}
+
+#icon{
+    display: inline-block;
 }
 .content {
     width: 75%;
@@ -82,4 +101,10 @@ h1 {
     height: 10%;
     background: white;
     position: absolute;
+}
+
+#coll{
+    margin-top: .5px;
+    margin-right: .5px;
+    padding: 0;
 }

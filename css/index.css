@@ -111,10 +111,30 @@ h1 {
 
 .stack div li{
     height: 10vh;
-    padding: 5%;
+    padding:1%;
 }
 
 
 .stack div p {
     margin-top: 1vh;
+}
+
+
+.daysLeft {
+	vertical-align: middle;
+    text-align: right;
+    line-height: 10vh;
+    margin-right: 0;
+}
+
+.daysLeftDiv {
+	margin-right: 0;
+}
+
+.leftDiv{
+    width: 270px;
+}
+
+li div{
+    display: inline-block;
 }

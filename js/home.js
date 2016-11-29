@@ -25,7 +25,7 @@ function studentClicked(){
     $( "#instructor" ).css("border", "none");
     $( "#instructor" ).prop('disabled',false);
     $( ".courses" ).empty();
-    $( ".courses" ).html("<div class=\"card blue lighten-1\"><div class=\"card-content\"><span class=\"card-title\">HST 318</span></div><div class=\"card-action\"><a href=\"index.html\">Home</a><a href=\"\">Calendar</a></div></div><div class=\"card blue lighten-1\"><div class=\"card-content\"><span class=\"card-title\">SER 321</span></div><div class=\"card-action\"><a href=\"\">Home</a><a href=\"\">Calendar</a></div></div>");
+    $( ".courses" ).html("<a href=\"index.html\"><div class=\"card blue lighten-1\"><div class=\"card-content\"><span class=\"card-title\">HST 318</span></div><div class=\"card-action\"><a href=\"index.html\">Home</a><a href=\"\">Calendar</a></div></div><div class=\"card blue lighten-1\"><div class=\"card-content\"><span class=\"card-title\">SER 321</span></div><div class=\"card-action\"><a href=\"\">Home</a><a href=\"\">Calendar</a></div></div></a>");
 }
 
 //Fills page with "instructor" content
